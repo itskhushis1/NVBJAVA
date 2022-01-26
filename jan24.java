@@ -164,3 +164,50 @@ Both are equal
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+/* ARRAY DEMO */
+
+
+package jan24;
+
+public class Arraydemo {
+
+	public static void main(String[] args) {
+		int x; // x is a variable that can hold only one integer value
+		int xa[]; // xa is a variable that can hold many integer values
+		xa = new int[5];
+		xa[0] = 10;
+		xa[1] = 20;
+		xa[2] = 30;
+		xa[3] = 40;
+		xa[4] = 50;
+		// xa[5] = 100;
+		x = xa[3];
+		if(x > xa[4])
+		System.out.println("x is greater");
+		else
+		System.out.println("x is smaller");
+		for(int i = 0; i<xa.length;i++)
+		System.out.println(xa[i]);
+		for(int value : xa)
+		System.out.println(value);
+
+	}
+
+}
+
+
+OUTPUT:
+
+x is smaller
+10
+20
+30
+40
+50
+10
+20
+30
+40
+50
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
