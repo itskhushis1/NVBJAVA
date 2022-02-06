@@ -6,7 +6,6 @@ package jan24;
 
 public class string {
 
-	
 	public static void main(String[] args) {
 		String s1;
 		s1 = new String("VIT Bhopal University");
